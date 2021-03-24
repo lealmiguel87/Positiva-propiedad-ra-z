@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto" sans-serif;
+  background: white;
+}
+
+.arriba {
+  background: white;
+  height: 10vh;
+  padding-bottom: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+
+}
+
+.logo {
+  grid-column-start: 2;
+  text-align: center;
+  background: white;
+}
+
+.container_1 {
+  background-image: url(https://www.arrendamientossantafe.com/static/img/banner_main.png);
+
+}
+
+.escrito {
+  text-align: center;
+  color: white;
+  padding-top: 5vh;
+}
+
+.busqueda {
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 30vh;
+}
+
+.bus{
+  font-size: 20px;
+  height: 10vh;
+  width: 40vw;
+  border-radius: 0.5rem;
+}
+
+.texto {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: 5% 30% 30% 30% 5%;
+  grid-template-rows: 5% repeat(2,1fr) 5%;
+  grid-gap: 10px;
+  border-color: black;
+  border: 5px;
+}
+
+.caja1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border: 1px solid lightgray;
+  border-radius: .3rem;
+  text-align: center;
+  padding: 2rem;
+
+}
+
+.caja2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border: 1px solid lightgray;
+  border-radius: .3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.caja3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border: 1px solid lightgray;
+  border-radius: .3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.img1, .img2, .img3 {
+  height: 30vh;
+}
